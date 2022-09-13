@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: "link.exe" завершилась с кодом 1120.
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_pthread_create в функции main.
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_pthread_join в функции main.
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_pthread_mutex_init в функции main.
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_pthread_mutex_lock в функции "void * __cdecl func(void *)" (?func@@YAPEAXPEAX@Z).
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_pthread_mutex_unlock в функции "void * __cdecl func(void *)" (?func@@YAPEAXPEAX@Z).
+C:\Users\qbite\Desktop\tipo-konspekti\system-programming\lecture3\works\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
